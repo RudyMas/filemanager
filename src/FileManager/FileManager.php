@@ -4,7 +4,8 @@ namespace RudyMas\FileManager;
 use SplFileInfo;
 
 /**
- * FileManager (Working with files on a server.)
+ * Class FileManager
+ * Working with files on a server
  *
  * @author      Rudy Mas <rudy.mas@rudymas.be>
  * @copyright   2014 - 2016, rudymas.be. (http://www.rudymas.be/)
