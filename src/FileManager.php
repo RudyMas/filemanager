@@ -1,5 +1,6 @@
 <?php
-namespace RudyMas\FileManager;
+
+namespace RudyMas;
 
 use SplFileInfo;
 
@@ -8,10 +9,10 @@ use SplFileInfo;
  * Working with files on a server
  *
  * @author      Rudy Mas <rudy.mas@rudymas.be>
- * @copyright   2014 - 2018, rudymas.be. (http://www.rudymas.be/)
+ * @copyright   2014 - 2020, rudymas.be. (http://www.rudymas.be/)
  * @license     https://opensource.org/licenses/GPL-3.0 GNU General Public License, version 3 (GPL-3.0)
- * @version     1.1.1
- * @package     RudyMas\FileManager
+ * @version     1.2.0
+ * @package     RudyMas
  */
 class FileManager
 {
@@ -195,4 +196,3 @@ class FileManager
         return $contents;
     }
 }
-/** End of File: FileManager.php **/

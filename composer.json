@@ -2,11 +2,13 @@
   "name": "rudymas/filemanager",
   "description": "Working with files on a server",
   "type": "library",
-  "license": "GPL-3.0",
+  "license": "GPL-3.0-or-later",
   "authors": [
     {
       "name": "Rudy Mas",
-      "email": "rudy.mas@rudymas.be"
+      "email": "rudy.mas@rudymas.be",
+      "homepage": "http://www.rmsoft.be",
+      "role": "Developer"
     }
   ],
   "minimum-stability": "stable",
@@ -14,8 +16,8 @@
     "php": ">= 5.4.0 || >= 7.0"
   },
   "autoload": {
-    "classmap": [
-      "src/"
-    ]
+    "psr-4": {
+      "RudyMas\\": "src/"
+    }
   }
 }
